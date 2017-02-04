@@ -28,4 +28,12 @@ dependencies {
     })
     testCompile 'junit:junit:4.12'
     compile project(':base')
+
+    compile "com.squareup.retrofit2:retrofit:$rootProject.ext.retrofitVersion"
+    compile "com.squareup.retrofit2:converter-gson:$rootProject.ext.retrofitVersion"
+    compile "com.squareup.okhttp3:logging-interceptor:$rootProject.ext.okHttpVersion"
+    compile "com.github.bumptech.glide:glide:$rootProject.ext.glideVersion"
+    compile 'jp.wasabeef:glide-transformations:2.0.1'
+
+    compile 'com.github.boybeak:adapter:1.0'
 }

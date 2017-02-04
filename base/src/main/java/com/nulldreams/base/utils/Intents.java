@@ -18,22 +18,21 @@ public abstract class Intents {
 
     public static void viewAppOnStore (Context context, String packageName) {
         Uri uri = Uri.parse("market://details?id=" + packageName);
-        Intent intent = new Intent(Intent.ACTION_VIEW,uri);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent intent = new Intent(Intent.ACTION_VIEW,uri)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);;
         context.startActivity(intent);
     }
 
     public static void openUrl (Context context, String url) {
-        Intent it = new Intent(Intent.ACTION_VIEW);
-        it.setData(Uri.parse(url));
+        Intent it = new Intent(Intent.ACTION_VIEW)
+                .setData(Uri.parse(url));;
         context.startActivity(it);
     }
 
     public static void shareImage (Context context, String chooserTitle, Uri uri) {
-        Intent shareIntent = new Intent();
-        shareIntent.setAction(Intent.ACTION_SEND);
-        shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
-        shareIntent.setType("image/jpeg");
+        Intent shareIntent = new Intent(Intent.ACTION_SEND)
+                .putExtra(Intent.EXTRA_STREAM, uri)
+                .setType("image/jpeg");
         context.startActivity(Intent.createChooser(shareIntent, chooserTitle));
     }
 
