@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="adapter-1.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.boybeak/adapter/1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.github.boybeak/adapter/1.1.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.boybeak/adapter/1.1.0/237951a9e0692d8862f7711fa5a9d6f30fe4f56e/adapter-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
