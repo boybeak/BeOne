@@ -1,7 +1,6 @@
 package com.nulldreams.beone.adapter;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -9,6 +8,7 @@ import android.widget.TextView;
 
 import com.nulldreams.adapter.AbsViewHolder;
 import com.nulldreams.adapter.DelegateAdapter;
+import com.nulldreams.base.content.It;
 import com.nulldreams.beone.Finals;
 import com.nulldreams.beone.R;
 import com.nulldreams.beone.activity.TextDetailActivity;
@@ -44,9 +44,9 @@ public class ContentHolder extends AbsViewHolder<ContentDelegate> {
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                context.startActivity(
-                        new Intent(context, TextDetailActivity.class)
-                                .putExtra(Finals.KEY_CONTENT, content));
+                It.newInstance()
+                        .putExtra(Finals.KEY_CONTENT, content)
+                        .startActivity(context, TextDetailActivity.class);
             }
         });
     }

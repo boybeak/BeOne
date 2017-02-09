@@ -39,7 +39,7 @@ public class Content implements Serializable{
     public Answerer answerer;
 
     public boolean hasMusic () {
-        return !TextUtils.isEmpty(audio_url);
+        return !TextUtils.isEmpty(audio_url) && audio_url.startsWith("http");
     }
 
 }

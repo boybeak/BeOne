@@ -8,4 +8,9 @@
         android:layout_height="256dp"
         android:scaleType="centerCrop"
         />
+    <TextView
+        android:id="@+id/movie_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"/>
 </RelativeLayout>

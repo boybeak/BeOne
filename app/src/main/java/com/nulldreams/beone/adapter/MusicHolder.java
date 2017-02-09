@@ -47,7 +47,7 @@ public class MusicHolder extends AbsViewHolder<MusicDelegate> {
             thumbRoundIv.setVisibility(View.GONE);
         }
         titleTv.setText(content.title);
-        descTv.setText(content.forward);
+        descTv.setText(content.forward + "\n" + content.audio_url);
 
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
