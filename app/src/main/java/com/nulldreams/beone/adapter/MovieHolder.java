@@ -8,6 +8,7 @@ import android.widget.TextView;
 import com.nulldreams.adapter.AbsViewHolder;
 import com.nulldreams.adapter.DelegateAdapter;
 import com.nulldreams.base.content.It;
+import com.nulldreams.base.utils.Intents;
 import com.nulldreams.beone.Finals;
 import com.nulldreams.beone.R;
 import com.nulldreams.beone.activity.MovieDetailActivity;

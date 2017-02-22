@@ -43,4 +43,12 @@ public abstract class Intents {
     public static void shareImage (Context context, String chooserTitle, String path) {
         shareImage(context, chooserTitle, new File(path));
     }
+
+    public static void call (Context context, String phoneNumber) {
+        Intent it = new Intent (Intent.ACTION_DIAL);
+        String uri = "tel:" + phoneNumber.trim() ;
+        it.setData(Uri.parse(uri));
+        context.startActivity(it);
+    }
+
 }

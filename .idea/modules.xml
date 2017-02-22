@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/BeOne.iml" filepath="$PROJECT_DIR$/BeOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/base/base.iml" filepath="$PROJECT_DIR$/base/base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beblog/beblog.iml" filepath="$PROJECT_DIR$/beblog/beblog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" />
     </modules>
   </component>
 </project>

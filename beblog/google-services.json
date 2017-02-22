@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "969769369972",
+    "project_id": "beblog-158509"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969769369972:android:8fc5d82e997dad25",
+        "android_client_info": {
+          "package_name": "com.nulldreams.beblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "969769369972-o06h78roirsf4s8lospohglrgun3j8d3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nulldreams.beblog",
+            "certificate_hash": "0C73F7BBFFDD4704FE30620E46C5AC2FFD750A25"
+          }
+        },
+        {
+          "client_id": "969769369972-ce1id6bnhvdr456qj0q5tcfjcaes5lab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkmttTGkMurkIEw7rVwtApflJ963C4eKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
